@@ -8,7 +8,9 @@ public class HelloWorldServlet extends HttpServlet
 {
   public void service( HttpServletRequest req, HttpServletResponse res ) throws IOException {
     PrintWriter out = res.getWriter();
-    out.println( "Hello, Good mORNING" );
+    out.println( "Hello, Trying GitHook Project" );
+    out.println( "Hello, Welcome Bhargav" );
+    out.println( "Somisetty" );
     out.close();
   }
 }
